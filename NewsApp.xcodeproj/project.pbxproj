@@ -156,10 +156,6 @@
 				EB8D52AC29F9E23700C3581B /* Presentation */,
 				EB8D527D29F9C68A00C3581B /* Service */,
 				EB8D526629F9C07100C3581B /* Core */,
-				EB80AB272990140800C18E34 /* Assets.xcassets */,
-				EB80AB292990140800C18E34 /* LaunchScreen.storyboard */,
-				EB80AB2C2990140800C18E34 /* Info.plist */,
-				EB8D528429F9C93000C3581B /* News.xcdatamodeld */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -188,6 +184,7 @@
 		EB8D526B29F9C4BE00C3581B /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				EB8D528429F9C93000C3581B /* News.xcdatamodeld */,
 				EB8D526929F9C3B700C3581B /* CoreDataStack.swift */,
 				EB8D526729F9C37000C3581B /* CoreDataStackImpl.swift */,
 				EB8D527A29F9C63E00C3581B /* CoreDataError.swift */,
@@ -209,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				EB80AB1B2990140700C18E34 /* AppDelegate.swift */,
+				EBFED52D2A0293AF00A227D1 /* Resources */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -475,6 +473,16 @@
 			path = Storage;
 			sourceTree = "<group>";
 		};
+		EBFED52D2A0293AF00A227D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB80AB272990140800C18E34 /* Assets.xcassets */,
+				EB80AB292990140800C18E34 /* LaunchScreen.storyboard */,
+				EB80AB2C2990140800C18E34 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -737,7 +745,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7RVKJ89XN7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NewsApp/Info.plist;
+				INFOPLIST_FILE = NewsApp/Application/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -768,7 +776,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7RVKJ89XN7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NewsApp/Info.plist;
+				INFOPLIST_FILE = NewsApp/Application/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
